@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+
+:root{
+--themeColor:#F8A427;
+--pinkColor:#ed1e5e;
+--blackColor:#333333;
+--grayColor:#F9FBFD;
+--whiteColor:#ffffff;
+--darkGrayColor:#cccccc;
+}
+
+a {
+    display: inline-block;
+    color: var(--blackColor);
+    text-decoration: none;
+}
+input:focus, input:focus-visible, textarea:focus, textarea:focus-visible{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.container-fluid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.themeButton {
+    padding: 10px 20px;
+    background: var(--themeColor);
+    color: var(--whiteColor) !important;
+    font-weight: 500;
+    display: block;
+    width: max-content;
+    transition: all .5s ease-in-out;
+    border-radius: 0;
+}
+
+/* Main CSS */
+
+#header .offerInfo{
+background: var(--themeColor);
+padding: 8px;
+text-align: center;
+}
+
+#header .offerInfo p{
+color: var(--whiteColor);
+text-align: center;
+}
+
+#header .loginInfo{
+background: var(--blackColor);
+padding: 8px;
+}
+
+#header .loginInfo a{
+color: var(--whiteColor);
+}
+
+#header .loginInfo a svg{ 
+    vertical-align: text-top;
+}
+
+#header .loginInfo ul li{ 
+    padding-left: 15px;
+}
+#header .navBar {
+    background: var(--whiteColor);
+}
+#header .navBar .appLogo {
+   width: 200px;
+   margin-right: 40px;
+}
+#header .navBar .menuContainer {
+    position: relative;
+}
+#header .navBar ul li a {
+ padding: 20px 15px;
+}
+#header .navBar .dropMenu {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+#header .navBar .dropMenu li a {
+    padding: 4px 0px;
+}
