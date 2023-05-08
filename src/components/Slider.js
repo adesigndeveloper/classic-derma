@@ -24,7 +24,6 @@ export default function SliderComponent() {
             <img src={slider2} className='img-fluid' />
         ]
     }
-
     return (
         <section id="slider">
             <OwlCarousel options={options}  >
